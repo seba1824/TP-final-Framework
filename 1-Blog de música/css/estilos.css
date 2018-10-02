@@ -21,7 +21,6 @@ body{
 	top:40px;
 }
 .navbar{
-	height:3rem;
 	margin-top:5px;
 	background-color:white;
 	padding-top:1rem;
@@ -32,6 +31,7 @@ body{
 	padding-left:5%;
 	padding-right:5%;
 	padding-top:0.5rem;
+	margin-bottom:1rem;
 	border-radius:5px;
 	height:3rem;
 }
