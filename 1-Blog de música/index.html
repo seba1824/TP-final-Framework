@@ -4,12 +4,13 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<meta name="mobile-web-app-capable" content="yes">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/estilos.css">
 		<script src="js/bootstrap.min.js"></script>
 		<title>Blog de música</title>
 </head>
-<body>
+	<body>
 		<header>
 		  <div class="row presentacion">
 			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -80,9 +81,12 @@
 					<div class="col-lg-3 col-md-12 col-sm-12 text-center">
 						<img src="img/larralde.jpg" class="grupoimg"/>
 					</div>
-					<form>
-						<input type="text" placeholder="Dejar comentario" class="form-control">
-					</form>
+					<div class="clearfix col-lg-12">
+						<form>
+							<span class="glyphicon glyphicon-user"></span>
+							<input type="text" placeholder="Dejar comentario" class="form-control busqueda">
+						</form>
+					</div>
 				</div>
 				<div class="col-xs-12 contenido">
 					<div class="col-lg-9 col-lg-push-3 col-md-12 col-sm-12">
@@ -94,15 +98,19 @@
 					<div class="col-lg-3 col-lg-pull-9 col-md-12 col-sm-12 text-center">
 						<img src="img/divididos1.jpg" class="grupoimg"/>
 					</div>
-					<form>
-						<input type="text" placeholder="Dejar comentario" class="form-control">
-					</form>
+					<div class="clearfix col-lg-12">
+						<form>
+							<span class="glyphicon glyphicon-user"></span>
+							<input type="text" placeholder="Dejar comentario" class="form-control busqueda">
+						</form>
+					</div>
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-4 hidden-sm hidden-xs">
-				<div>
+				<div class="clearfix">
 					<form>
-						<input type="text" placeholder="Buscar" class="form-control">
+						<span class="glyphicon glyphicon-search"></span>
+						<input type="text" placeholder="Buscar" class="busqueda form-control">
 					</form>
 				</div>
 				<div>
@@ -116,6 +124,5 @@
 				</div>
 			</div>
 		</div>
-	
-</body>
+	</body>
 </html>

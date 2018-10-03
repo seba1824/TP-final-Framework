@@ -53,4 +53,15 @@ body{
 }
 .glyphicon-search{
 	color:white;
+	margin-top:1rem;
+	margin-left:1rem;
+}
+.busqueda{
+	width:90%;
+	float:right;
+}
+.glyphicon-user{
+	margin-top:1rem;
+	margin-left:;
+	font-size:20px;
 }
