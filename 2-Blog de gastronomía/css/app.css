@@ -1,0 +1,50 @@
+body{
+	background: url(../img/cocinawallpaper.jpg) repeat;
+	background-size:100%;
+}
+.contenedor{
+	background: #bbdefb;
+	opacity:0.9;
+	background-size:100%;
+	padding:1rem;
+	border-radius:5px;
+}
+.titutlo{
+	padding-left:2rem;
+	padding-right:1rem;
+	border-right:1px solid black;
+}
+.sloganblog{
+	text-align:right;
+}
+.principal{
+	padding-left:1rem;
+}
+.busqueda{
+	padding:1rem;
+}
+.buscar{
+	width:80%;
+}
+.buscar1{
+	width:20%;
+}
+.favoritos{
+	width:90%;
+	margin:0.5rem 1rem;
+}
+.contenido{
+	background:#64b5f6 !important;
+	margin-left:1rem;
+}
+}
+.comentarios{
+	width:100%;
+	height:2rem;
+}
+.enviarcoment{
+	float:right;
+}
+.iusuario{
+	width: 4rem;
+}
