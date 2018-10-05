@@ -1,0 +1,57 @@
+body{
+	background: lightblue url(../img/body.jpg) fixed bottom no-repeat;
+	background-size:1600px;
+	background-position:center 100px;
+	padding:1rem;
+}
+.logo{
+	border-radius:7px;
+}
+.navegacion{
+	margin-bottom:2rem;
+}
+.navbtn{
+	font-size:;
+}
+.slogan{
+	margin-top:4rem;
+	color:white;
+}
+@media (max-width:992px){
+	.slogan{
+		margin-top:0;
+	}
+}
+.imgsocial{
+	width:75%;
+	border-radius:5px;
+	margin-bottom:1rem;
+}
+.imgviajes{
+	width:100%;
+	border-radius:7px;
+}
+.entradaimg{
+	width:50%;
+	float:left;
+	margin:1rem;
+}
+@media(max-width:600px){
+	.entradaimg{
+		width:90%;
+	}
+}
+.comentarios{
+	margin: 1rem;
+}
+.enviar{
+	margin:1rem;
+}
+.autor{
+	text-align:center;
+}
+.autorimg{
+	border-radius:50%;
+	width:50%;
+	margin:1rem;
+}
